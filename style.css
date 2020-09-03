@@ -1,0 +1,1113 @@
+/*ШРИФТЫ*/
+@font-face {
+    font-family: 'TitilliumWebBold';
+    src: url('fonts/TitilliumWeb-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/TitilliumWeb-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TitilliumWebRegular';
+    src: url('fonts/TitilliumWeb-Regular.woff2') format('woff2'),
+        url('fonts/TitilliumWeb-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Randrake';
+    src: url('fonts/Randrake-Regular.woff2') format('woff2'),
+        url('fonts/Randrake-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TitilliumWeb';
+    src: url('fonts/TitilliumWeb-Bold.woff2') format('woff2'),
+        url('fonts/TitilliumWeb-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TitilliumSemiBold';
+    src: url('fonts/TitilliumWeb-SemiBold.woff2') format('woff2'),
+        url('fonts/TitilliumWeb-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TitilliumLight';
+    src: url('fonts/TitilliumWeb-Light.woff2') format('woff2'),
+        url('fonts/TitilliumWeb-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TitilliumItalic';
+    src: url('fonts/TitilliumWeb-Italic.woff2') format('woff2'),
+        url('fonts/TitilliumWeb-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+/*------------------------------------------------------------------------*/
+
+/*ALL*/
+*{
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*WELCOME------------------------------------------------------------------*/
+.welcome{
+	width: 100%;
+	min-height: 595px;
+	box-sizing: border-box;
+	padding: 57px 10.5% 145px 10.5%;
+	background-color: rgb(135,80,156);
+}
+
+.welcome-header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 50px;
+}
+
+.welcome-logotype{
+	margin-bottom: 15px;
+}
+
+.wel-logo-text{
+	font-size: 115px;
+	font-family: Randrake;
+	color: rgb(255,255,255);
+}
+
+.welcome-links{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.welcome-links-link{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 8px;
+	margin: 0px 10px;
+	height: 32px;
+	border-radius: 3px;
+}
+
+.wel-link-text{
+	color: rgb(255,255,255);
+	font-family: TitilliumWebRegular;
+	text-decoration: none;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.welcome-text{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+
+.welcome-text p{
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-family: TitilliumWeb;
+	font-size: 38px;
+}
+
+.welcome-button{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.orange-button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	width: 25%;
+	background-color: rgb(235, 125, 75);
+	cursor: pointer;
+	border-bottom: 5px solid rgb(200, 106, 64);
+	border-radius: 5px;
+}
+
+.orange-button-text{
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+	font-family: TitilliumSemiBold;
+}
+
+@media only screen  and (max-width: 900px){
+	.welcome{
+		padding: 85px 8% 60px 8%;
+	}
+
+	.wel-logo-text{
+		font-size: 105px;
+	}
+
+	.welcome-text p{
+		color: rgb(255, 255, 255);
+		font-size: 30px;
+	}
+
+	.welcome-text p br{
+		display: none;
+	}
+
+	.orange-button{
+		width: 45%;
+		margin-top: 40px;
+	}
+}
+
+@media only screen  and (max-width: 600px){
+	.welcome-header{
+		flex-direction: column;
+	}
+
+	.welcome-text p{
+		font-size: 24px;
+	}
+
+	.orange-button{
+		width: 55%;
+	}
+}
+
+@media only screen  and (max-width: 410px){
+	.wel-link-text{
+		font-size: 14px;
+	}
+
+	.welcome-links-link{
+		padding: 0px 5px;
+		margin: 0px 8px;
+	}
+}
+
+@media only screen  and (max-width: 368px){
+	.wel-link-text{
+		font-size: 12px;
+	}
+
+	.welcome-links-link{
+		padding: 0px 5px;
+		margin: 0px 7px;
+	}
+}
+
+/*FOR SCRIPTS*/
+.choiceLink{
+	background-color: rgb(100, 58, 121);
+}
+
+.darkOrangeButton{
+	background-color: rgb(230,100,40);
+	border-bottom: 5px solid rgb(185,95,55);
+}
+
+/*SERVICES----------------------------------------------------------------*/
+.services{
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: column;
+	width: 100%;
+	min-height: 746px;
+	padding: 118px 10.5% 131px 10.5%;
+	background-color: rgb(23,194,164);
+}
+
+.services-header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 80px;
+}
+
+.services-name{
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	text-align: center;
+	font-family: TitilliumWeb;
+	letter-spacing: 4px;
+	margin-bottom: 5px;
+}
+
+.line-under-h1{
+	background-color: rgba(0, 0, 0,0.15);
+	height: 4px;
+	width: 5.97%;
+	margin-bottom: 12px;
+}
+
+.services-text{
+	color: rgb(255, 255, 255);
+	font-family: TitilliumWebRegular;
+	text-align: center;
+	font-size: 18px;
+}
+
+.services-icon{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.icons{
+	width: 250px;
+	text-align: center;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+}
+
+.icon{
+	text-align: center;
+}
+
+.icon-name{
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-family: TitilliumWeb;
+	letter-spacing: 1px;
+	margin-top: 20px;
+}
+
+.icon-text{
+	color: rgb(255, 255, 255);
+	font-family: TitilliumLight;
+	box-sizing: border-box;
+	padding: 10px 15% 0px 15%;
+}
+
+@media only screen  and (max-width: 900px){
+	.services{
+		padding: 85px 8% 60px 8%;
+	}
+
+	.line-under-h1{
+		width: 15%;
+	}
+
+	.services-text br{
+		display: none;
+	}
+	.icons{
+		margin-bottom: 60px;
+	}
+}
+
+/*TEAM------------------------------------------------------------*/
+.team{
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: column;
+	padding: 118px 10.5% 116px 10.5%;
+	width: 100%;
+	min-height: 913px;
+	background-color: rgb(231,241,248);
+}
+
+.team-header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 80px;
+}
+
+.team-name{
+	color: rgb(60, 71, 97);
+	text-align: center;
+	text-transform: uppercase;
+	font-family: TitilliumWeb;
+	letter-spacing: 4px;
+	margin-bottom: 5px;
+}
+
+.team-text{
+	color: rgb(60, 71, 97);
+	font-family: TitilliumWebRegular;
+	text-align: center;
+	font-size: 18px;
+}
+
+.team-members{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.member-name{
+	text-align: center;
+	width: 250px;
+	margin-bottom: 40px;
+	box-sizing: border-box;
+}
+
+.avatar{
+	background-color: rgb(135, 135, 135);
+	border-radius: 100px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	height: 200px;
+	width: 200px;
+}
+
+.name-worker{
+	color: rgb(60, 71, 97);
+	text-transform: uppercase;
+	font-family: TitilliumWeb;
+	letter-spacing: 1px;
+	margin-bottom: 2px;
+}
+
+.profession{
+	color: rgb(85, 194, 233);
+	letter-spacing: 1px;
+	font-family: TitilliumLight;
+}
+
+.description-worker{
+	display: flex;
+	color: rgb(36, 46, 70);
+	font-family: TitilliumLight;
+	box-sizing: border-box;
+	padding: 10px 10% 0px 10%;
+	line-height: 25px;
+	margin-bottom: 40px;
+}
+
+.social-softs{
+	display: flex;
+	box-sizing: border-box;
+	width: 100%;
+	justify-content: center;
+}
+
+.soft-icon{
+	margin: 0px 5px 0px 5px;
+	cursor: pointer;
+}
+
+@media only screen  and (max-width: 900px){
+	.team{
+		padding: 85px 8% 60px 8%;
+	}
+
+	.member-name{
+		margin-bottom: 80px;
+	}
+
+}
+
+/*SKILLS----------------------------------------------------------*/
+.scills{
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: column;
+	padding: 118px 10.5% 123px 10.5%;
+	width: 100%;
+	min-height: 654px;
+	background-color: rgb(255,255,255);
+}
+
+.scills-header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 80px;
+}
+
+.scills-name{
+	color: rgb(60, 71, 97);
+	text-transform: uppercase;
+	font-family: TitilliumWeb;
+	letter-spacing: 4px;
+	margin-bottom: 5px;
+}
+
+.scills-text{
+	color: rgb(60, 71, 97);
+	font-family: TitilliumWebRegular;
+	text-align: center;
+	font-size: 18px;
+}
+
+.progress-block{
+	display: flex;
+	flex-wrap: wrap; 
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	justify-content: space-around; 
+}
+
+.progress-bar{
+	width: 250px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+.block-with-bar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 31px;
+	box-sizing: border-box;
+}
+
+.percent{
+	position: absolute;
+	font-size: 50px;
+	font-family: TitilliumLight;
+	color: rgb(60, 71, 97);
+}
+
+.name-bar{
+	color: rgb(60, 71, 97);
+	text-transform: uppercase;
+	font-family: TitilliumWeb;
+	letter-spacing: 1px;
+}
+
+/*Прогресс Бар*/
+
+.ring-progress{
+	z-index: 2;
+}
+
+.ring-bar{
+	transform-origin: center;
+	transform: rotate(-90deg);
+}
+
+.ring-back{
+	position: absolute;
+	z-index: 1;
+}
+
+.background-bar{
+	position: absolute;
+	z-index: 20;
+}
+
+@media only screen  and (max-width: 900px){
+	.scills{
+		padding: 85px 8% 60px 8%;
+	}
+
+	.scills-text br{
+		display: none;
+	}
+}
+
+/*PORTFOLIO-------------------------------------------------*/
+.portfolio{
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: column;
+	padding: 118px 10.5% 118px 10.5%;
+	width: 100%;
+	min-height: 1422px;
+	background-color: rgb(255,221,153);
+}
+
+.portfolio-header{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 62px;
+}
+
+.portfolio-name{
+	color: rgb(57, 57, 57);
+	text-transform: uppercase;
+	text-align: center;
+	font-family: TitilliumWeb;
+	letter-spacing: 4px;
+	margin-bottom: 5px;
+}
+
+.portfolio-text{
+	color: rgb(57, 57, 57);
+	font-family: TitilliumWebRegular;
+	text-align: center;
+	font-size: 18px;
+	padding-bottom: 43px;
+}
+
+.portfolio-up-button{
+	display: flex;
+	box-sizing: border-box;
+	width: 100%;
+	justify-content: center;
+}
+
+.port-button{
+	display: flex;
+	width: 8%;
+	height: 37px;
+	margin: 0px 10px 0px 10px;
+	border-radius: 3px;
+	justify-content: space-around;
+	align-items: center;
+	cursor: pointer;
+	background-color: rgb(235, 201, 133);
+}
+
+.text-port-button{
+	color: rgb(57, 57, 57);
+	font-family: TitilliumWebRegular;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.image-block{
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+.port-image{
+	display: inline-block;
+	text-align: center;
+	padding-bottom: 64px;
+	width: 49%;
+}
+
+.image-comp{
+	width: 96%;
+}
+
+.image-comp-name{
+	color: rgb(57, 57, 57);
+	font-family: TitilliumWebRegular;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.load-more-button{
+	display: flex;
+	width: 30%;
+	height: 69px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	cursor: pointer;
+	background-color: rgb(23, 194, 164);
+	border-bottom: 5px solid rgb(20, 165, 140);
+	border-radius: 5px;
+}
+
+.text-load-button{
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: TitilliumSemiBold;
+}
+
+.hidden_name{
+	display: none;
+}
+
+.hidden_name_exception{
+	display: none;
+}
+
+@media only screen  and (max-width: 900px){
+	.portfolio{
+		padding: 85px 8% 108px 8%;
+		min-height: 800px;
+	}
+
+	.port-button{
+		width: 15%;
+	}
+
+	.image-comp{
+		width: 96%;
+	}
+
+	.image-comp-name{
+		font-size: 16px;
+	}
+
+	.load-more-button{
+		width: 40%;
+		align-items: center;
+	}
+
+	.portfolio-text br{
+		display: none;
+	}
+}
+
+@media only screen  and (max-width: 600px){
+	.image-comp-name{
+		font-size: 14px;
+	}
+
+	.text-port-button{
+		font-size: 14px;
+	}
+
+	.hidden_name{
+		display: inline;
+	}
+
+	.load-more-button{
+		width: 60%;
+		align-items: center;
+	}
+
+	.hidden_name_exception{
+		display: inline;
+	}
+}
+
+@media only screen  and (max-width: 371px){
+	.hidden_name_exception{
+		display: none;
+	}
+
+	.image-block{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.image-comp{
+		width: 100%;
+	}
+
+	.port-image{
+		width: 100%;
+	}
+
+	.hidden_name_exception{
+		display: none;
+	}
+
+	.hidden_name{
+		display: none;
+	}
+}
+
+/*FOR SCRIPTS*/
+.choiceLinkPort{
+	background-color: rgb(255, 255, 255);
+}
+
+.putBluButton{
+	background-color: rgb(19, 158, 133);
+	border-bottom: 5px solid rgb(16, 120, 102);
+}
+
+/*TESTIMONIALS------------------------------------------------*/
+.testimonials{
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	flex-direction: column;
+	padding: 118px 10.5% 0px 10.5%;
+	min-height: 893px;
+	background-color: rgb(215,70,128);
+}
+
+.testimonials-header{
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 71px;
+}
+
+.testimonials-name{
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-family: TitilliumWeb;
+	letter-spacing: 4px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.testimonials-text{
+	color: rgb(255, 255, 255);
+	font-family: TitilliumWebRegular;
+	text-align: center;
+	font-size: 18px;
+	padding-bottom: 43px;
+}
+
+.reviews{
+	width: 100%;
+}
+
+.review-block{
+	display: inline-block;
+	text-align: center;
+	padding-bottom: 159px;
+	width: 49%;
+}
+
+.review-avatar{
+	display: inline-block;
+	background-color: rgb(120, 120, 120);
+	border-radius: 100px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	height: 80px;
+	width: 80px;
+}
+
+.review-text-block{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 48px;
+	width: 50%;
+}
+
+.text-review{
+	color: rgb(255, 255, 255);
+	font-family: TitilliumItalic;
+	text-align: left;
+	padding-bottom: 29px;
+}
+
+.name-commentator{
+	color: rgb(255, 255, 255);
+	font-size: 24px;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: TitilliumSemiBold;
+}
+
+.commentator-special{
+ 	color: rgb(255, 205, 150);
+	font-size: 18px;
+	text-align: left;
+	box-sizing: border-box;
+	margin-top: -7px;
+	font-family: TitilliumWebRegular;
+}
+
+@media only screen  and (max-width: 900px){
+	.testimonials{
+		padding: 85px 8% 108px 8%;
+		min-height: 800px;
+	}
+
+	.review-block{
+		padding-bottom: 69px;
+	}
+
+	.review-avatar{
+		height: 100px;
+		width: 100px;
+		margin-bottom: 15px;
+	}
+
+	.review-text-block{
+		padding-left: 32px;
+	}
+
+	.text-review{
+		font-size: 14px;
+	}
+
+	.name-commentator{
+		font-size: 16px; 
+	}
+
+	.commentator-special{
+		font-size: 12px;
+	}
+}
+
+@media only screen  and (max-width: 600px){
+	.review-block{
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		justify-content: center;
+	}
+
+	.testimonials-text{
+		padding-bottom: 13px;
+	}
+}
+
+/*GET IN TOURCH-------------------------------------------------*/
+.getInTorch{
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	flex-direction: column;
+	padding: 118px 10.5% 115px 10.5%;
+	min-height: 817px;
+	background-color: rgb(60,84,153);
+}
+
+.getInTorch-header{
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	padding-bottom: 71px;
+}
+
+.getInTorch-name{
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-family: TitilliumWeb;
+	letter-spacing: 4px;
+	margin-bottom: 5px;
+}
+
+.getInTorch-text{
+	color: rgb(255, 255, 255);
+	font-family: TitilliumWebRegular;
+	text-align: center;
+	font-size: 18px;
+	padding-bottom: 43px;
+}
+
+.block-with-forms{
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	flex-direction: column;
+	align-items: center;
+}
+
+.your-data-block{
+	display: flex;
+	width: 100%;
+	margin-bottom: 26px;
+	box-sizing: border-box;
+}
+
+input[type="text"]{
+	display: inline-block;
+	width: 413px;
+	height: 55px;
+	margin: 0px 15px 0px 15px;
+	border-radius: 3px;
+	outline: none;
+	padding-left: 24px;
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	font-family: TitilliumWebRegular;
+	background-color: rgb(39, 58, 113);
+}
+
+.comment-window{
+	width: 859px;
+	height: 199px;
+	margin-left: 15px;
+	border-radius: 3px;
+	outline: none;
+	padding-left: 24px;
+	padding-top: 15px;
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	font-family: TitilliumWebRegular;
+	background-color: rgb(39, 58, 113);
+}
+
+.your-comment-block{
+	display: flex;
+}
+
+.place-holder {
+    z-index: 10;    
+    left: 10px;
+    cursor: text;   
+    position: absolute;
+    top: 15px;
+    left: 38px;
+    width: 100%;    
+    display: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+	font-family: TitilliumWebRegular;
+}
+
+.placeinput input:invalid + .place-holder {
+     display: inline;
+}
+
+.placeinput textarea:invalid + .place-holder {
+     display: inline;
+}
+
+.placeinput {
+    position: relative;
+    overflow: hidden;
+}
+
+.place-holder span {
+	padding-left: 3px;
+    color: rgb(255, 68, 68);
+}
+
+.torch-button{
+	display: flex;
+	width: 100%;
+	padding-top: 58px;
+	box-sizing: border-box;
+	justify-content: center;
+}
+
+.button-form{
+	cursor: pointer;
+	color:  rgb(255, 255, 255);
+	width: 30%;
+	height: 59px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	border-bottom: 4px solid rgb(41, 158, 197);
+	background-color: rgb(48, 186, 231);
+	text-transform: uppercase;
+	font-family: TitilliumSemiBold;
+	font-size: 18px;
+	outline: none;
+}
+
+footer{
+	display: flex;
+	padding: 0px 10.5%;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	flex-direction: row;
+	min-height: 111px;
+	width: 100%;
+	background-color: rgb(52, 75, 142);
+	border-top: 1px solid rgb(60, 84, 153);
+}
+
+.other-link{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-family: TitilliumSemiBold;
+	font-size: 24px;
+}
+
+.other-link:hover{
+	color: rgb(48, 186, 231);
+	transition-duration: 0.3s;
+}
+
+@media only screen  and (max-width: 900px){
+	.getInTorch{
+		padding: 85px 8% 108px 8%;
+	}
+
+	input[type="text"]{
+		width: 265px;
+	}
+
+	.comment-window{
+		width: 560px;
+	}
+
+	footer{
+		padding: 0px 8%;
+	}
+
+	.other-link{
+		font-size: 18px;
+		margin: 0px 2% 0px 2%;
+	}
+}
+
+@media only screen  and (max-width: 600px){
+
+	input[type="text"]{
+		width: 145px;
+		font-size: 16px;
+	}
+
+	.comment-window{
+		width: 320px;
+		font-size: 16px;
+	}
+
+	.place-holder{
+		font-size: 16px;
+	}
+
+	.button-form{
+		width: 55%;
+	}
+
+	footer{
+		flex-direction: column;
+	}
+
+	.getInTorch-text{
+		padding-bottom: 11px;
+	}
+}
+
+@media only screen  and (max-width: 350px){
+	.your-data-block{
+		display: flex;
+		flex-direction: column;
+	}
+
+	input[type="text"]{
+		width: 250px;
+		margin-bottom: 25px;
+	}
+
+	.place-holder {
+   	 	z-index: 10;    
+     	left: 10px;
+     	cursor: text;   
+   	 	position: absolute;
+   	 	top: 15px;
+  	 	left: 38px;
+  	 	width: 100%;    
+	}	
+
+	.comment-window{
+		width: 250px;
+	}
+}
+
+/*FOR SCRIPTS*/
+
+.putSendButton{
+	border-bottom: 4px solid rgb(40, 148, 184);
+	background-color: rgb(44, 162, 201);
+}

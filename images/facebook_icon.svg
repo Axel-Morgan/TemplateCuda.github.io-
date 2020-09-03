@@ -1,0 +1,11 @@
+<svg width="33" height="33" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="35" width="35" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAIcSURBVHjaxNe9T1NhGAXwX98Wo/IpkRCcNDQuGiQuLC7KYtDNRXf+ARZ1dFNc9A9wx0E3JS7VReOgIdLEyRKcNAQHpcpnRAffNoi03lsoPdNN3/ucc27fr+dkCrPzEqIDl3AewziB7jj2DfN4hxd4iu9JSDMJDORxA9fQntDsD0xhEqV6L4Y6YwdxB+8xnkJcfHc81k5GrlQGBvE6fvkBjeMArkeufFIDZ/EqzvNeYRgvI3ddA3k8Q7+9R3/kztcycAiP0Kd56MPjqPWPgVs4o/kYilp/GRjERCNsGeSyQS4b0pRNVKYiF3+4ibY0DNkQnDzWq7+nXQgZ8Lz4MWl5W9QcD+iMh0wq5AeOGOjtqIpvbv5KS3EVnTmMpTxk/qym7sPV5zcfPimvrKelaMdYwGhDJ0wuW31uQLyC0RBXZaswlCnMzi/iaNKKC0PHa469LX22tLyWxsCXgK69+JS1jZ/K6cShK5e2orLVtv4TKbbfjpfRUgvXwFLAXAsNzAUUW2igGFBooYFCwHTs4fYby5gOKONhCwxMoVy5Q29jYx/FN2LDW72O53AvNpCpzoMGcb/Srm/viPZjRxR36ohgBVew2ETxxaixXKsrLuEiFpogvhC5S//LBTM4t8fTUYycM0mTUQkjuIv1XQivR46RWhmxXiu7GqPZKTzYOm8JsBJrTkeO1d2k463x/PK2eN4Tx75ui+dPksbz3wMAy4h/VtL3Lk4AAAAASUVORK5CYII=" id="svg_4" height="32" width="32" y="0.5" x="0.5"/>
+ </g>
+</svg>

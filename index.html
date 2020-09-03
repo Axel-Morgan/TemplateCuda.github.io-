@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Template Cuda</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+
+<!--WELCOME-------------------------------------------------------------->
+	<div class="welcome">
+		<div class="welcome-header">
+			<div class="welcome-logotype">
+				<p class="wel-logo-text">Cuda</p>
+			</div>
+			<div class="welcome-links">
+				<div class="welcome-links-link" onclick="change_background_welcome_header(1)">
+					<a class="wel-link-text">Home</a>
+				</div>
+				<div class="welcome-links-link" onclick="change_background_welcome_header(2)">
+					<a class="wel-link-text">About</a>
+				</div>
+				<div class="welcome-links-link"  onclick="change_background_welcome_header(3)">
+					<a class="wel-link-text">Work</a>
+				</div>
+				<div class="welcome-links-link"" onclick="change_background_welcome_header(4)">
+					<a class="wel-link-text">Blog</a>
+				</div>
+				<div class="welcome-links-link" onclick="change_background_welcome_header(5)">
+					<a class="wel-link-text">Contact</a>
+				</div>
+			</div>
+		</div>
+		<div class="welcome-text">
+			<p>Hi there! We are the new kids on the block <br>and we build awesome websites and mobile apps.</p>
+		</div>
+		<div class="welcome-button">
+			<div class="orange-button" id="oranBut" onclick="pressOrangeButton()">
+				<p class="orange-button-text">Work with us!</p>
+			</div>
+		</div>
+	</div>
+
+
+<!--SERVICES-------------------------------------------------------------->
+	<div class="services">
+		<div class="services-header">
+			<h1 class="services-name">Services we provide</h1>
+			<hr class="line-under-h1">
+			<p class="services-text">We are working with both individuals and businesses from all over the globe <br>to create awesome websites and applications.</p>
+		</div>
+		<div class="services-icon">
+			<div class="icons"> 
+				<img src="images/flag_icon.svg" alt="Here is a picture" class="icon">
+				<h2 class="icon-name">Branding</h2>
+                <p class="icon-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+			</div>
+			<div class="icons">
+				<img src="images/pencil_icon.svg" alt="Here is a picture" class="icon">
+				<h2 class="icon-name">Design</h2>
+				<p class="icon-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+			</div>
+			<div class="icons">
+				<img src="images/gears_icon.svg" alt="Here is a picture" class="icon">
+				<h2 class="icon-name">Development</h2>
+				<p class="icon-text">At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+			</div>
+			<div class="icons">
+				<img src="images/rocket_icon.svg" alt="Here is a picture" class="icon">
+				<h2 class="icon-name">Rocket Science</h2>
+				<p class="icon-text">Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>	
+			</div>					
+		</div>
+	</div>
+
+
+<!--TEAM---------------------------------------------------------------->
+	<div class="team">
+		<div class="team-header">
+			<h1 class="team-name">Meet our beatiful team</h1>
+			<hr class="line-under-h1">
+			<p class="team-text">We are a small team of disigners and developers, who help brands with big ideas</p>
+		</div>
+		<div class="team-members">
+			<div class="member-name">
+				<div class="avatar"></div>
+				<h2 class="name-worker">Anne Hathaway</h2>
+				<p class="profession">CEO/ Marketing Guru</p>
+				<p class="description-worker">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+				<div class="social-softs">
+					<img src="images/facebook_icon.svg" alt="Facebook" class="soft-icon">
+					<img src="images/twitter_icon.svg" alt="Twitter" class="soft-icon">
+					<img src="images/linkedIn_icon.svg" alt="linkedIn" class="soft-icon">
+					<img src="images/email_icon.svg" alt="Email" class="soft-icon">
+				</div>
+			</div>
+			<div class="member-name">
+				<div class="avatar"></div>
+				<h2 class="name-worker">Kate Upton</h2>
+				<p class="profession">Creative Director</p>
+				<p class="description-worker">Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
+				<div class="social-softs">
+					<img src="images/twitter_icon.svg" alt="Twitter" class="soft-icon">
+					<img src="images/linkedIn_icon.svg" alt="linkedIn" class="soft-icon">
+					<img src="images/email_icon.svg" alt="Email" class="soft-icon">
+				</div>
+			</div>
+			<div class="member-name">
+				<div class="avatar"></div>
+				<h2 class="name-worker">Olivia Wilde</h2>
+				<p class="profession">Lead Designer</p>
+				<p class="description-worker">Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+				<div class="social-softs">
+					<img src="images/facebook_icon.svg" alt="Facebook" class="soft-icon">
+					<img src="images/twitter_icon.svg" alt="Twitter" class="soft-icon">
+					<img src="images/linkedIn_icon.svg" alt="linkedIn" class="soft-icon">
+					<img src="images/email_icon.svg" alt="Email" class="soft-icon">
+				</div>
+			</div>
+			<div class="member-name">
+				<div class="avatar"></div>
+				<h2 class="name-worker">Ashley Greene</h2>
+				<p class="profession">SEO/ Developer</p>
+				<p class="description-worker">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+				<div class="social-softs">
+					<img src="images/facebook_icon.svg" alt="Facebook" class="soft-icon">
+					<img src="images/twitter_icon.svg" alt="Twitter" class="soft-icon">
+					<img src="images/email_icon.svg" alt="Email" class="soft-icon">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!--SKILLS---------------------------------------------------------------->
+	<div class="scills">
+		<div class="scills-header" onclick="">
+			<h1 class="scills-name">We got scills</h1>
+			<hr class="line-under-h1">
+			<p class="scills-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+		<div class="progress-block">
+			<div class="progress-bar">
+				<div class="block-with-bar">
+					<svg class="ring-progress" width="200" height="200">
+						<circle class="ring-bar" stroke="rgb(48, 186, 231)" stroke-width="13" cx="100" cy="100" r="83" fill="transparent">
+					</svg>
+
+					<svg class="ring-back" width="200" height="200">
+						<circle class="background-bar" stroke="rgb(223, 232, 237)" stroke-width="13" cx="100" cy="100" r="83" fill="transparent">
+					</svg>
+					<p class="percent"></p>
+				</div>
+				<h2 class="name-bar">Web design</h2>
+			</div>
+			<div class="progress-bar">
+				<div class="block-with-bar">
+               	 	<svg class="ring-progress" width="200" height="200">
+					   	<circle class="ring-bar" stroke="rgb(215, 70, 128)" stroke-width="13" cx="100" cy="100" r="83" fill="transparent">
+					</svg>
+
+					<svg class="ring-back" width="200" height="200">
+						<circle class="background-bar" stroke="rgb(223, 232, 237)" stroke-width="13" cx="100" cy="100" r="83" fill="transparent">
+					</svg>
+					<p class="percent"></p>
+				</div>
+				<h2 class="name-bar">HTML / CSS</h2>
+			</div>
+			<div class="progress-bar"> 
+				<div class="block-with-bar">
+               	    <svg class="ring-progress" width="200" height="200">
+					    <circle class="ring-bar" stroke="rgb(21, 199, 168)" stroke-width="13" cx="100" cy="100" r="83" fill="transparent">
+                	</svg>
+
+                	<svg class="ring-back" width="200" height="200">
+						<circle class="background-bar" stroke="rgb(223, 232, 237)" stroke-width="13" cx="100" cy="100" r="83" fill="transparent">
+					</svg>
+                	<p class="percent"></p>
+                </div>
+				<h2 class="name-bar">Graphic design</h2>
+			</div>  
+			<div class="progress-bar">
+				<div class="block-with-bar">
+                	<svg class="ring-progress" width="200" height="200">
+				   	    <circle class="ring-bar" stroke="rgb(235, 125, 75)" stroke-width="13" cx="100" cy="100" r="83" fill="transparent">
+ 					</svg>
+
+ 					<svg class="ring-back" width="200" height="200">
+						<circle class="background-bar" stroke="rgb(223, 232, 237)" stroke-width="13" cx="100" cy="100" r="83" fill="transparent">
+					</svg>
+ 					<p class="percent"></p>
+ 				</div>
+				<h2 class="name-bar">UI / UX</h2>
+			</div>
+		</div>
+	</div>
+
+   <script>circleProgressBar([90, 75, 70, 85])</script>
+
+<!--PORTFOLIO------------------------------------------------------------->
+	<div class="portfolio">
+		<div class="portfolio-header">
+			<h1 class="portfolio-name">Our portfolio</h1>
+			<hr class="line-under-h1">
+			<p class="portfolio-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet <br> consectetur, adipisci velit, sed quia non nunmquam.</p>
+			<div class="portfolio-up-button">
+				<div class="port-button" onclick="changeBackgroundPortButton(1)">
+					<p class="text-port-button">All</p>
+				</div>
+				<div class="port-button" onclick="changeBackgroundPortButton(2)">
+					<p class="text-port-button">Web</p>
+				</div>
+				<div class="port-button" onclick="changeBackgroundPortButton(3)">
+					<p class="text-port-button">Apps</p>
+				</div>
+				<div class="port-button" onclick="changeBackgroundPortButton(4)">
+					<p class="text-port-button">Icons</p>
+				</div>		
+			</div>
+		</div>
+		<div class="image-block">
+			<div class="port-image">
+				<img class="image-comp" src="images/comp_image_1.png">
+				<p class="image-comp-name">Isometric per&shyspe&shycti&shyve <br class="hidden_name_exception"> mock-up</p>
+			</div>
+			<div class="port-image">
+				<img class="image-comp" src="images/comp_image_2.png">
+				<p class="image-comp-name">Time-zone <br class="hidden_name"> APP UI</p>
+			</div>
+			<div class="port-image">
+				<img class="image-comp" src="images/comp_image_3.png">
+				<p class="image-comp-name">Viro media <br class="hidden_name"> players UI</p>
+			</div>
+			<div class="port-image">
+				<img class="image-comp" src="images/comp_image_4.png">
+				<p class="image-comp-name">Blog / magazine <br class="hidden_name"> flat UI Kit</p>
+			</div>
+		</div>
+		<div class="load-more-button" id="blueBut" onclick="pressBlueButton()">
+			<p class="text-load-button">Load more <br class="hidden_name"> progects</p>
+		</div>
+	</div>
+
+
+<!--TESTIMONIALS----------------------------------------------------------->
+	<div class="testimonials">
+		<div class="testimonials-header">
+			<h1 class="testimonials-name">What people say about us</h1>
+			<hr class="line-under-h1">
+			<p class="testimonials-text">Our clients love us!</p>
+		</div>
+		<div class="reviews">
+			<div class="review-block">
+				<div class="review-avatar"></div>
+				<div class="review-text-block">
+					<p class="text-review">Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+					<p class="name-commentator">Chanel Iman</p>
+					<p class="commentator-special">CEO of Pintrest</p>	
+				</div>
+			</div>
+			<div class="review-block">
+				<div class="review-avatar"></div>
+				<div class="review-text-block">
+					<p class="text-review">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
+					<p class="name-commentator">Adriana Lima</p>
+					<p class="commentator-special">Founder of Instagram</p>	
+				</div>
+			</div>
+			<div class="review-block">
+				<div class="review-avatar"></div>
+				<div class="review-text-block">
+					<p class="text-review">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
+					<p class="name-commentator">Anne Hathaway</p>
+					<p class="commentator-special">Lead Designer at Behance</p>	
+				</div>
+			</div>
+			<div class="review-block">
+				<div class="review-avatar"></div>
+				<div class="review-text-block">
+					<p class="text-review">“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”</p>
+					<p class="name-commentator">Emma Stone</p>
+					<p class="commentator-special">Co-Founder of Shazam</p>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!--GET IN TOURCH----------------------------------------------------------->
+	<div class="getInTorch">
+		<div class="getInTorch-header">
+			<h1 class="getInTorch-name">Get in torch</h1>
+			<hr class="line-under-h1">
+			<p class="getInTorch-text">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+		</div>
+		<div class="block-with-forms">
+			<form action="#">
+				<div class="your-data-block">
+					<label class="placeinput">
+						<input type="text" name="username" autocomplete="off" required>
+						<p class="place-holder">Your Name<span>*</span></p>
+					</label>
+					<label class="placeinput">
+						<input type="text" name="useremail" autocomplete="off" required>
+						<p class="place-holder">Your Email<span>*</span></p>
+					</label>
+				</div>
+				<div class="your-comment-block">
+					<label class="placeinput">
+						<textarea class="comment-window" name="usercomment" required></textarea>
+						<p class="place-holder">Your Massage<span>*</span></p>
+					</label>
+				</div>
+				<div class="torch-button">
+					<button class="button-form" id="buttonSend" onclick="pressSendButton()">Send Massage</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+<!--FOOTER---------------------------------------------------------------------->
+<footer>
+	<p><a href="" class="other-link">Facebook</a></p>
+	<p><a href="" class="other-link">Twitter</a></p>
+	<p><a href="" class="other-link">Google+</a></p>
+	<p><a href="" class="other-link">Lirkedln</a></p>
+	<p><a href="" class="other-link">Behance</a></p>
+	<p><a href="" class="other-link">Dribbble</a></p>
+	<p><a href="" class="other-link">GitHub</a>
+</footer>
+
+
+<!--LIVERELOAD----------------------------------------------------------->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
